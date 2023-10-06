@@ -2,6 +2,8 @@
 
 alias dotfiles="cd ~/workspace/dotfiles"
 alias source.zsh="source ~/.zshrc"
+alias pbcopy='xsel --clipboard --input'
+alias pbpaste='xsel --clipboard --output'
 alias ll="exa --all --long --header --git"
 alias lt="exa -aT --color=always --group-directories-first --ignore-glob=\"**/node_modules|**/dist|**/.next\""
 alias f="fzf --preview 'bat --style=numbers --theme=ansi --color=always --line-range :500 {}' | pbcopy | echo `pbpaste`"

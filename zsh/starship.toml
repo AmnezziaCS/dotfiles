@@ -17,12 +17,12 @@ format = "[$path]($style)[$lock_symbol]($lock_style) "
 style = "bold white"
 
 [git_status]
-conflicted = "❌ ${count} "
-ahead = "🔼 ${count} "
-behind = "🔽 ${count} "
-diverged = "⇄ ${count} "
-untracked = "🤷 "
 stashed = "📦 "
+conflicted = "❌ ${count} "
+ahead = "🔼 ×${count} "
+behind = "🔽 ×${count} "
+diverged = "⇄ ×${count} "
+untracked = "🤷 ×${count} "
 modified = "📝 ×${count} "
 staged = "🗃️  ×${count} "
 renamed = "📛 ×${count} "
@@ -32,3 +32,6 @@ format = "$all_status$ahead_behind"
 
 [nodejs]
 format = "via [🤖 $version](bold green) "
+
+[aws]
+style = "bold yellow"

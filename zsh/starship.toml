@@ -9,6 +9,7 @@ success_symbol = '[➜](bold green)'
 error_symbol = "[✖](bold red) "
 
 [directory]
+style = "bold cyan"
 truncation_length = 5
 format = "[$path]($style)[$lock_symbol]($lock_style) "
 
@@ -16,11 +17,11 @@ format = "[$path]($style)[$lock_symbol]($lock_style) "
 style = "bold white"
 
 [git_status]
-conflicted = "⚔️ "
-ahead = "🏎️ 💨 ×${count} "
-behind = "🐢 ×${count} "
-diverged = "🔱 🏎️ 💨 ×${ahead_count} 🐢 ×${behind_count} "
-untracked = "🛤️  ×${count} "
+conflicted = "❌ ${count} "
+ahead = "🔼 ${count} "
+behind = "🔽 ${count} "
+diverged = "⇄ ${count} "
+untracked = "🤷 "
 stashed = "📦 "
 modified = "📝 ×${count} "
 staged = "🗃️  ×${count} "

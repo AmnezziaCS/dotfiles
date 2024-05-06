@@ -54,6 +54,13 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosugges
 source ~/.zshrc
 ```
 
+### Create VS Code symlinks
+
+```sh
+ln -s ~/workspace/dotfiles/vscode/settings.json ~/.config/Code/User/settings.json -f
+ln -s ~/workspace/dotfiles/vscode/keybindings.json ~/.config/Code/User/keybindings.json -f
+```
+
 ## Documentation :
 
 - [General dotfiles documentation](https://dotfiles.github.io/)
@@ -68,6 +75,16 @@ Create a symlink:
 Override zsh configuration:
 
 - `source {path_to_.zshrc}`
+
+## VS Code extensions :
+
+- [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+- [Git history](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
+- [Github Copilot](https://marketplace.visualstudio.com/items?itemName=github.copilot)
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [Babel JavaScript](https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel)
+- [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
 
 ## Useful links :
 

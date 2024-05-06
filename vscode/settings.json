@@ -1,0 +1,15 @@
+{
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "files.autoSave": "onWindowChange",
+  "window.zoomLevel": 1
+}

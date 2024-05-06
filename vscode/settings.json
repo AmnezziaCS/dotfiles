@@ -4,10 +4,11 @@
   "editor.formatOnSave": true,
   "github.copilot.enable": {
     "*": true,
-    "plaintext": false,
+    "plaintext": true,
     "markdown": true,
     "scminput": false
   },
+  "git.mergeEditor": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "files.autoSave": "onWindowChange",

@@ -6,19 +6,19 @@ My personal dotfile collection made to avoid setups and fresh installs on new de
 
 ### Clone the repository
 
-```bash
+```sh
 git clone https://github.com/amnezziaa/dotfiles.git ~/workspace/dotfiles
 ```
 
 ### Install zsh
 
-```bash
+```sh
 sudo apt install zsh
 ```
 
 ### Create a symlink
 
-```bash
+```sh
 ln -s ~/workspace/dotfiles/zsh/.zshrc ~/.zshrc
 ```
 
@@ -28,7 +28,7 @@ Download the font from the [NerdFont website](https://www.nerdfonts.com/font-dow
 
 ### Install all the dependencies
 
-```bash
+```sh
 # exa is a modern replacement for ls
 sudo apt install exa
 
@@ -44,13 +44,13 @@ curl -sS https://starship.rs/install.sh | sh
 
 ### Clone zsh-autosuggestions
 
-```bash
+```sh
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
 ```
 
 ### Source the zshrc
 
-```bash
+```sh
 source ~/.zshrc
 ```
 
@@ -61,13 +61,15 @@ source ~/.zshrc
 
 ## Useful shell commands :
 
-> Creates a symlink
+Create a symlink:
 
 - `ln -s {original_file_path} {target_file_path}`
 
-> Overrides config
+Override zsh configuration:
 
 - `source {path_to_.zshrc}`
+
+## Useful links :
 
 ### Terminals :
 

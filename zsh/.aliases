@@ -1,8 +1,29 @@
+# dotfiles utils
 alias dotfiles="cd ~/workspace/dotfiles"
 alias source.zsh="source ~/.zshrc"
+
+# copy and paste
 alias pbcopy='xsel --clipboard --input'
 alias pbpaste='xsel --clipboard --output'
+
+# exa
 alias ll="exa --all --long --header --git"
 alias lt="exa -aT --color=always --group-directories-first --ignore-glob=\"**/node_modules|**/dist|**/.next\""
+
+# fzf
 alias f="fzf --preview 'bat --style=numbers --theme=ansi --color=always --line-range :500 {}' | pbcopy | echo `pbpaste`"
+
+# lazygit
 alias lg="lazygit"
+
+# npm scripts
+alias nrw="npm run watch"
+alias nrd="npm run dev"
+alias nrb="npm run build"
+alias jestu="npm run jest -- -u"
+
+# docker
+alias dcu="docker compose up"
+
+# git
+alias forceamend="git commit --amend -n && git push --force"

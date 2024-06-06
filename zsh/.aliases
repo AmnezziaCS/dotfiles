@@ -20,6 +20,7 @@ alias lg="lazygit"
 alias nrw="npm run watch"
 alias nrd="npm run dev"
 alias nrb="npm run build"
+alias jest="npm run jest"
 alias jestu="npm run jest -- -u"
 
 # docker

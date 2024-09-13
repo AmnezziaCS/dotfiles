@@ -7,7 +7,7 @@ My personal dotfile collection made to avoid setups and fresh installs on new de
 ### Clone the repository
 
 ```sh
-git clone https://github.com/amnezziaa/dotfiles.git ~/workspace/dotfiles
+git clone https://github.com/AmnezziaCS/dotfiles.git ~/workspace/dotfiles
 ```
 
 ### Install zsh

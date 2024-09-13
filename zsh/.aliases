@@ -1,6 +1,6 @@
 # dotfiles utils
 alias dotfiles="cd ~/workspace/dotfiles"
-alias readme="cd ~/workspace/amnezziaa"
+alias readme="cd ~/workspace/AmnezziaCS"
 alias source.zsh="source ~/.zshrc"
 
 # copy and paste

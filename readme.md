@@ -23,10 +23,12 @@ sudo apt install zsh
 chsh -s $(which zsh)
 ```
 
-### Create a symlink for the zshrc
+### Create necessary symlinks
 
 ```sh
 ln -s ~/workspace/dotfiles/.zshrc ~/.zshrc
+ln -s ~/workspace/dotfiles/.config/starship.toml ~/.config/starship.toml
+ln -s ~/workspace/dotfiles/.config/starship.toml ~/.config/starship.toml
 ```
 
 ### Download the nerd font

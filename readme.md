@@ -16,7 +16,14 @@ git clone https://github.com/AmnezziaCS/dotfiles.git ~/workspace/dotfiles
 sudo apt install zsh
 ```
 
-### Create a symlink
+#### Define zsh as the default shell
+
+```sh
+# in ubuntu the path is /usr/bin/zsh
+chsh -s $(which zsh)
+```
+
+### Create a symlink for the zshrc
 
 ```sh
 ln -s ~/workspace/dotfiles/.zshrc ~/.zshrc

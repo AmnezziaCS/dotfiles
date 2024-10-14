@@ -4,7 +4,6 @@ ZSH_PATH="${HOME}/workspace/dotfiles/zsh"
 source "${ZSH_PATH}/.aliases"
 source "${ZSH_PATH}/.completion"
 source "${ZSH_PATH}/.history"
-source "${ZSH_PATH}/.diagrams"
 
 # Source non-local zsh config
 source "${HOME}/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh"

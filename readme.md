@@ -19,7 +19,7 @@ sudo apt install zsh
 ### Create a symlink
 
 ```sh
-ln -s ~/workspace/dotfiles/zsh/.zshrc ~/.zshrc
+ln -s ~/workspace/dotfiles/.zshrc ~/.zshrc
 ```
 
 ### Download the nerd font

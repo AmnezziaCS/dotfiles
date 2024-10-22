@@ -1,5 +1,5 @@
 # aliases
-alias dotfiles='cd ~/.bashrc'
+alias dotfiles='cd ~/Documents/dev/dotfiles'
 alias forceamend='git commit --amend --no-edit; git push --force'
 
 alias ls='ls -F --color=auto --show-control-chars'
@@ -20,8 +20,10 @@ then
 else
     PS1='\[\033]0;Git Bash$PWD\007\]' # set window title
     PS1="$PS1"'\n'                 # new line
-    PS1="$PS1"'\[\033[32m\]'       # change color to green
+    PS1="$PS1"'\[\033[32m\]'       # change to green
     PS1="$PS1"'\u@\h '             # user@host<space>
+    PS1="$PS1"'\[\033[35m\]'       # change to purple
+    PS1="$PS1"'\[\033[33m\]'       # change to white
     PS1="$PS1"'\w'                 # current working directory
     if test -z "$WINELOADERNOEXEC"
     then
@@ -50,3 +52,8 @@ export GIT_PS1_SHOWSTASHSTATE=true
 export GIT_PS1_SHOWDIRTYSTATE=true
 export GIT_PS1_SHOWUNTRACKEDFILES=true
 export GIT_PS1_SHOWUPSTREAM="auto"
+
+# bind arrows to move between words
+bind '"\eOC":forward-word'
+bind '"\eOD":backward-word'
+bind '"\C-h": backward-kill-word'

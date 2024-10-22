@@ -8,9 +8,17 @@ I thought it would be a good idea to document it here as the setup could change 
 
 ## Setup
 
-### Files
+### Downloads
 
-Download git bash from [here](https://git-scm.com/downloads).
+- [Git Bash](https://git-scm.com/downloads)
+
+Clone this repo to your workspace directory:
+
+```bash
+git clone  https://github.com/AmnezziaCS/dotfiles.git ~/Documents/dev/dotfiles
+```
+
+### Files
 
 Create a symlink to the `.bashrc` and `.bash_profile` files in this repo:
 

@@ -1,6 +1,28 @@
 # 🚀 Dotfiles
 
-My personal dotfile collection made to avoid setups and fresh installs on new devices.
+This repository holds my personal zsh configuration files. The idea behind this is to have a consistent shell experience across all my devices. I use zsh as my default shell and I have a few plugins and customizations to make my life easier.
+
+## Table of contents
+
+- [Installation](#installation)
+  - [Clone the repository](#clone-the-repository)
+  - [Install zsh](#install-zsh)
+    - [Define zsh as the default shell](#define-zsh-as-the-default-shell)
+  - [Create necessary symlinks](#create-necessary-symlinks)
+  - [Download the nerd font](#download-the-nerd-font)
+  - [Install all the dependencies](#install-all-the-dependencies)
+  - [Clone zsh-autosuggestions](#clone-zsh-autosuggestions)
+  - [Source the zshrc](#source-the-zshrc)
+  - [Create VS Code symlinks](#create-vs-code-symlinks)
+- [Bash](#bash)
+- [Documentation](#documentation)
+- [Useful shell commands](#useful-shell-commands)
+- [VS Code extensions](#vs-code-extensions)
+- [Useful links](#useful-links)
+  - [Terminals](#terminals)
+  - [Customization](#customization)
+  - [Fonts](#fonts)
+  - [Shortcuts](#shortcuts)
 
 ## Installation :
 
@@ -70,12 +92,16 @@ ln -s ~/workspace/dotfiles/vscode/settings.json ~/.config/Code/User/settings.jso
 ln -s ~/workspace/dotfiles/vscode/keybindings.json ~/.config/Code/User/keybindings.json -f
 ```
 
-## Documentation :
+## Bash
+
+Since I sometimes have to work on plain Windows machines without WSL. I heavily rely on git bash to get a more unix-like experience. The documentation for my `.bashrc` file can be found [here](./bash/bash.md).
+
+## Documentation
 
 - [General dotfiles documentation](https://dotfiles.github.io/)
 - [Zsh documentation](https://zsh.sourceforge.io/Doc/Release/zsh_toc.html)
 
-## Useful shell commands :
+## Useful shell commands
 
 Create a symlink:
 
@@ -85,7 +111,7 @@ Override zsh configuration:
 
 - `source {path_to_.zshrc}`
 
-## VS Code extensions :
+## VS Code extensions
 
 - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 - [Git history](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
@@ -95,13 +121,13 @@ Override zsh configuration:
 - [Babel JavaScript](https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel)
 - [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
 
-## Useful links :
+## Useful links
 
-### Terminals :
+### Terminals
 
 - https://github.com/Guake/guake
 
-### Customization :
+### Customization
 
 - [exa - modern replacement for ls](https://the.exa.website/)
 - [atuin - command-line shell history visualizer](https://atuin.sh/)
@@ -111,10 +137,10 @@ Override zsh configuration:
 - [zoxide - smart cd command](https://github.com/ajeetdsouza/zoxide)
 - [bat - cat clone with syntax highlighting](https://github.com/sharkdp/bat)
 
-### Fonts :
+### Fonts
 
 - [NerdFont - software engineering friendly fonts](https://www.nerdfonts.com/font-downloads)
 
-### Shortcuts :
+### Shortcuts
 
 - [zsh shortcut documentation](https://gist.github.com/2KAbhishek/9c6d607e160b0439a186d4fbd1bd81df)

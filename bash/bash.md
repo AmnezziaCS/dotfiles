@@ -20,11 +20,12 @@ git clone  https://github.com/AmnezziaCS/dotfiles.git ~/Documents/dev/dotfiles
 
 ### Files
 
-Create a symlink to the `.bashrc` and `.bash_profile` files in this repo:
+Create a symlink to the `.bashrc`, `.bash_profile` and `.inputrc` files in this repo:
 
 ```bash
-mklink "C:\Users\username\.bashrc" "C:\path\to\this\repo\bash\.bashrc"
-mklink "C:\Users\username\.bash_profile" "C:\path\to\this\repo\bash\.bash_profile"
+mklink "C:\Users\${USERNAME}\.bashrc" "C:\${PATH_TO_THIS_REPO}\bash\.bashrc"
+mklink "C:\Users\${USERNAME}\.bash_profile" "C:\${PATH_TO_THIS_REPO}\bash\.bash_profile"
+mklink "C:\Users\${USERNAME}\.inputrc" "C:\${PATH_TO_THIS_REPO}\bash\.inputrc"
 ```
 
 ### Terminal

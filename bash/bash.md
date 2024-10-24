@@ -1,5 +1,7 @@
 # `.bashrc` file
 
+[⬅️ Back to README.md](../README.md)
+
 ## Why?
 
 Since I currently have to use windows without WSL at work. I heavily rely on git bash to get a more unix-like experience. Thus, I have a `.bashrc` file in my home directory to set up some aliases and customizations.

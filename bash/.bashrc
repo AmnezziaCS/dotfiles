@@ -2,6 +2,9 @@
 alias dotfiles='cd ~/Documents/dev/dotfiles'
 alias forceamend='git commit --amend --no-edit; git push --force'
 
+alias nys='npx yarn start:debug'
+alias nyd='npx yarn dev'
+ 
 alias ls='ls -F --color=auto --show-control-chars'
 alias ll='ls -l'
 alias rm='rm -iv'

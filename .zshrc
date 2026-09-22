@@ -9,5 +9,5 @@ source "${ZSH_PATH}/.history"
 source "${HOME}/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh"
 
 # Configure atuin and starship
-eval "$(atuin init zsh)"
 eval "$(starship init zsh)"
+eval "$(atuin init zsh)"

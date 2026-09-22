@@ -49,8 +49,9 @@ chsh -s $(which zsh)
 
 ```sh
 ln -s ~/workspace/dotfiles/.zshrc ~/.zshrc
-ln -s ~/workspace/dotfiles/.config/starship.toml ~/.config/starship.toml
-ln -s ~/workspace/dotfiles/.config/starship.toml ~/.config/starship.toml
+ln -s ~/workspace/dotfiles/.config/starship/starship.toml ~/.config/starship.toml
+ln -s ~/workspace/dotfiles/.config/atuin/config.toml ~/.config/atuin/config.toml
+ln -s ~/workspace/dotfiles/.config/tmux/tmux.conf ~/.config/tmux.conf
 ```
 
 ### Download the nerd font
@@ -70,7 +71,7 @@ sudo apt install fzf
 sudo apt install tmux
 
 # atuin is a command-line shell history visualizer
-curl --proto '=https' --tlsv1.2 -sSf https://setup.atuin.sh
+curl --proto '=https' --tlsv1.2 -LsSf https://setup.atuin.sh | sh
 
 # starship is a minimalistic, fast and customizable prompt
 curl -sS https://starship.rs/install.sh | sh

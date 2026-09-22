@@ -12,6 +12,7 @@ This repository holds my personal zsh configuration files. The idea behind this 
   - [Download the nerd font](#download-the-nerd-font)
   - [Install all the dependencies](#install-all-the-dependencies)
   - [Clone zsh-autosuggestions](#clone-zsh-autosuggestions)
+  - [Clone tpm (tmux plugin manager)](#clone-tpm-tmux-plugin-manager)
   - [Source the zshrc](#source-the-zshrc)
   - [Create VS Code symlinks](#create-vs-code-symlinks)
 - [Bash](#bash)
@@ -24,7 +25,7 @@ This repository holds my personal zsh configuration files. The idea behind this 
   - [Fonts](#fonts)
   - [Shortcuts](#shortcuts)
 
-## Installation :
+## Installation
 
 ### Clone the repository
 
@@ -48,10 +49,12 @@ chsh -s $(which zsh)
 ### Create necessary symlinks
 
 ```sh
+mkdir -p ~/.config/atuin ~/.config/tmux
+
 ln -s ~/workspace/dotfiles/.zshrc ~/.zshrc
 ln -s ~/workspace/dotfiles/.config/starship/starship.toml ~/.config/starship.toml
 ln -s ~/workspace/dotfiles/.config/atuin/config.toml ~/.config/atuin/config.toml
-ln -s ~/workspace/dotfiles/.config/tmux/tmux.conf ~/.config/tmux.conf
+ln -s ~/workspace/dotfiles/.config/tmux/tmux.conf ~/.config/tmux/tmux.conf
 ```
 
 ### Download the nerd font
@@ -82,6 +85,14 @@ curl -sS https://starship.rs/install.sh | sh
 ```sh
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
 ```
+
+### Clone tpm (tmux plugin manager)
+
+```sh
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+
+Then reload tmux and press `prefix + I` to install the plugins declared in `.config/tmux/tmux.conf`.
 
 ### Source the zshrc
 

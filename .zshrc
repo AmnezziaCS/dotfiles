@@ -8,6 +8,8 @@ source "${ZSH_PATH}/.history"
 # Source non-local zsh config
 source "${HOME}/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh"
 
-# Configure atuin and starship
+# Configure starship
 eval "$(starship init zsh)"
+# Configure atuin
+. "$HOME/.atuin/bin/env"
 eval "$(atuin init zsh)"

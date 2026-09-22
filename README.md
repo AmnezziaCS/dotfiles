@@ -66,6 +66,9 @@ sudo apt install exa
 # fzf is a command-line fuzzy finder
 sudo apt install fzf
 
+# tmux is a terminal multiplexer
+sudo apt install tmux
+
 # atuin is a command-line shell history visualizer
 curl --proto '=https' --tlsv1.2 -sSf https://setup.atuin.sh
 

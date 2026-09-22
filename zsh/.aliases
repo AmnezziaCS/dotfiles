@@ -19,6 +19,7 @@ alias lg="lazygit"
 
 # npm scripts
 alias nrw="npm run watch"
+alias nrs="npm run start"
 alias nrd="npm run dev"
 alias nrb="npm run build"
 alias jest="npm run jest"

@@ -1,9 +1,10 @@
 # aliases
 alias dotfiles='cd ~/Documents/dev/dotfiles'
-alias forceamend='git commit --amend --no-edit; git push --force'
+alias sourcebash='source ~/.bashrc'
 
 alias nys='npx yarn start:debug'
 alias nyd='npx yarn dev'
+alias forceamend='git commit --amend --no-edit; git push --force'
  
 alias ls='ls -F --color=auto --show-control-chars'
 alias ll='ls -l'

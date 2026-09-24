@@ -1,4 +1,4 @@
-# `.bashrc` file
+# Bash configuration
 
 [⬅️ Back to README.md](../README.md)
 
@@ -6,11 +6,9 @@
 
 Since I currently have to use windows without WSL at work. I heavily rely on git bash to get a more unix-like experience. Thus, I have a `.bashrc` file in my home directory to set up some aliases and customizations.
 
-I thought it would be a good idea to document it here as the setup could change over time.
+## Installation
 
-## Setup
-
-### Install Git Bash
+### Download Git Bash
 
 - [Git Bash](https://git-scm.com/downloads)
 
@@ -28,7 +26,7 @@ git clone  https://github.com/AmnezziaCS/dotfiles.git ~/Documents/dev/dotfiles
 curl --proto '=https' --tlsv1.2 -LsSf https://setup.atuin.sh | sh
 ```
 
-### Symlinks
+### Create the symlinks
 
 Create a symlink to the `.bashrc`, `.bash_profile` and `.inputrc` files in this repo. Run this from Git Bash (requires [Developer Mode](https://learn.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development) enabled, or a terminal run as administrator):
 

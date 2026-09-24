@@ -7,6 +7,7 @@ This repository holds my personal zsh configuration files. The idea behind this 
 - [Installation](#installation)
 - [Bash](#bash)
 - [Documentation](#documentation)
+  - [Claude](#claude)
   - [Useful shell commands](#useful-shell-commands)
   - [Terminals](#terminals)
   - [Customization](#customization)
@@ -26,6 +27,10 @@ Since I sometimes have to work on plain Windows machines without WSL. I heavily 
 
 - [General dotfiles documentation](https://dotfiles.github.io/)
 - [Zsh documentation](https://zsh.sourceforge.io/Doc/Release/zsh_toc.html)
+
+### Claude
+
+Claude config taken from [here](https://github.com/Fuzznimp/dotfiles/tree/main/.claude) (thanks Fuzznimp 🙂). Wanted to try it out as it looked very well made. `.md` files should be imported inside `.claude` directory for a setup.
 
 ### Terminals
 

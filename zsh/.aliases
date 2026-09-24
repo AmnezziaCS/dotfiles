@@ -7,9 +7,9 @@ alias source.zsh="source ~/.zshrc"
 alias pbcopy='xsel --clipboard --input'
 alias pbpaste='xsel --clipboard --output'
 
-# exa
-alias ll="exa --all --long --header --git"
-alias lt="exa -aT --color=always --group-directories-first --ignore-glob=\"**/node_modules|**/dist|**/.next\""
+# eza
+alias ll="eza --all --long --header --git"
+alias lt="eza -aT --color=always --group-directories-first --ignore-glob=\"**/node_modules|**/dist|**/.next\""
 
 # fzf
 alias f="fzf --preview 'bat --style=numbers --theme=ansi --color=always --line-range :500 {}' | pbcopy | echo `pbpaste`"

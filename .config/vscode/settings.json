@@ -9,8 +9,7 @@
     "scminput": false
   },
   "git.mergeEditor": true,
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "javascript.updateImportsOnFileMove.enabled": "always",
+  "js/ts.updateImportsOnFileMove.enabled": "always",
   "files.autoSave": "onWindowChange",
   "window.zoomLevel": 1
 }

@@ -1,9 +1,9 @@
-# dotfiles utils
+# Dotfiles utils
 alias dotfiles="cd ~/workspace/dotfiles"
 alias readme="cd ~/workspace/AmnezziaCS"
 alias source.zsh="source ~/.zshrc"
 
-# copy and paste
+# Copy and paste
 alias pbcopy='xsel --clipboard --input'
 alias pbpaste='xsel --clipboard --output'
 
@@ -17,7 +17,7 @@ alias f="fzf --preview 'bat --style=numbers --theme=ansi --color=always --line-r
 # lazygit
 alias lg="lazygit"
 
-# npm scripts
+# Npm scripts
 alias nrw="npm run watch"
 alias nrs="npm run start"
 alias nrd="npm run dev"
@@ -25,8 +25,8 @@ alias nrb="npm run build"
 alias jest="npm run jest"
 alias jestu="npm run jest -- -u"
 
-# docker
+# Docker
 alias dcu="docker compose up"
 
-# git
+# Git
 alias forceamend="git commit --amend -n && git push --force"

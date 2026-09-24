@@ -46,6 +46,7 @@ Claude config taken from [here](https://github.com/Fuzznimp/dotfiles/tree/main/.
 - [zoxide - smart cd command](https://github.com/ajeetdsouza/zoxide)
 - [bat - cat clone with syntax highlighting](https://github.com/sharkdp/bat)
 - [tmux - terminal multiplexer](https://github.com/tmux/tmux)
+- [zsh auto suggestions - fish-like autosuggestions for zsh](https://github.com/zsh-users/zsh-autosuggestions)
 
 ### Fonts
 

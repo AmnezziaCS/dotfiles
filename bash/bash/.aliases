@@ -1,16 +1,16 @@
-# dotfiles utils
+# Dotfiles utils
 alias dotfiles='cd ~/Documents/dev/dotfiles'
 alias source.bash='source ~/.bashrc'
 
-# bash
+# Enhanced bash commands
 alias ls='ls -F --color=auto --show-control-chars'
 alias ll='ls -l'
 alias rm='rm -iv'
 
-# yarn scripts
+# Yarn scripts
 alias nys='npx yarn start:debug'
 alias nyd='npx yarn dev'
 
-# git
+# Git
 alias forceamend='git commit --amend --no-edit; git push --force'
  

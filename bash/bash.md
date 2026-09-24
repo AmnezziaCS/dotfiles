@@ -20,10 +20,14 @@ Clone this repo to your workspace directory:
 git clone  https://github.com/AmnezziaCS/dotfiles.git ~/Documents/dev/dotfiles
 ```
 
-### Install atuin
+### Install all the dependencies
 
 ```bash
+# atuin is a command-line shell history visualizer
 curl --proto '=https' --tlsv1.2 -LsSf https://setup.atuin.sh | sh
+
+# starship is a minimalistic, fast and customizable prompt
+winget install --id Starship.Starship --source winget
 ```
 
 ### Create the symlinks
@@ -36,6 +40,7 @@ ln -sf ~/Documents/dev/dotfiles/bash/.bashrc ~/.bashrc
 ln -sf ~/Documents/dev/dotfiles/bash/.bash_profile ~/.bash_profile
 ln -sf ~/Documents/dev/dotfiles/bash/.inputrc ~/.inputrc
 ln -sf ~/Documents/dev/dotfiles/.config/atuin/atuin.toml ~/.config/atuin/atuin.toml
+ln -sf ~/Documents/dev/dotfiles/.config/starship.toml ~/.config/starship.toml
 ```
 
 > `MSYS=winsymlinks:nativestrict` makes `ln -s` create real Windows symlinks instead of silently copying the files.

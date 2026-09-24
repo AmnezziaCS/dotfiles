@@ -1,0 +1,3 @@
+bind '"\eOC":forward-word'
+bind '"\eOD":backward-word'
+bind '"\C-h": backward-kill-word'

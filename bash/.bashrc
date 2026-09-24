@@ -2,6 +2,7 @@ BASH_PATH="${HOME}/Documents/dev/dotfiles/bash/bash"
 
 source ${BASH_PATH}/.aliases
 source ${BASH_PATH}/.style
+source ${BASH_PATH}/.keybindings
 if [ -f "${BASH_PATH}/.sii" ]; then
     source ${BASH_PATH}/.sii
 fi
@@ -14,7 +15,6 @@ export GIT_PS1_SHOWDIRTYSTATE=true
 export GIT_PS1_SHOWUNTRACKEDFILES=true
 export GIT_PS1_SHOWUPSTREAM="auto"
 
-# bind arrows to move between words
-bind '"\eOC":forward-word'
-bind '"\eOD":backward-word'
-bind '"\C-h": backward-kill-word'
+# add atuin to bashrc
+. "$HOME/.atuin/bin/env"
+eval "$(atuin init bash)"

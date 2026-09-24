@@ -1,4 +1,3 @@
-# prompt style
 if test -f /etc/profile.d/git-sdk.sh
 then
     TITLEPREFIX=SDK-${MSYSTEM#MINGW}

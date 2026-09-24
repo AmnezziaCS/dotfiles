@@ -12,7 +12,6 @@ This repository holds my personal zsh configuration files. The idea behind this 
   - [Download the nerd font](#download-the-nerd-font)
   - [Install all the dependencies](#install-all-the-dependencies)
   - [Clone zsh-autosuggestions](#clone-zsh-autosuggestions)
-  - [Clone tpm (tmux plugin manager)](#clone-tpm-tmux-plugin-manager)
   - [Source the zshrc](#source-the-zshrc)
   - [Create VS Code symlinks](#create-vs-code-symlinks)
 - [Bash](#bash)
@@ -85,14 +84,6 @@ curl -sS https://starship.rs/install.sh | sh
 ```sh
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
 ```
-
-### Clone tpm (tmux plugin manager)
-
-```sh
-git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
-```
-
-Then reload tmux and press `prefix + I` to install the plugins declared in `.config/tmux/tmux.conf`.
 
 ### Source the zshrc
 

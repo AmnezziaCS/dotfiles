@@ -27,16 +27,6 @@ Since I sometimes have to work on plain Windows machines without WSL. I heavily 
 - [General dotfiles documentation](https://dotfiles.github.io/)
 - [Zsh documentation](https://zsh.sourceforge.io/Doc/Release/zsh_toc.html)
 
-### Useful shell commands
-
-Create a symlink:
-
-- `ln -s {original_file_path} {target_file_path}`
-
-Override zsh configuration:
-
-- `source {path_to_.zshrc}`
-
 ### Terminals
 
 - https://github.com/Guake/guake
@@ -69,3 +59,13 @@ Override zsh configuration:
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - [Babel JavaScript](https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel)
 - [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
+
+### Useful shell commands
+
+Create a symlink:
+
+- `ln -s {original_file_path} {target_file_path}`
+
+Override zsh configuration:
+
+- `source {path_to_.zshrc}`

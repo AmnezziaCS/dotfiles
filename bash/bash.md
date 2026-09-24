@@ -22,13 +22,16 @@ git clone  https://github.com/AmnezziaCS/dotfiles.git ~/Documents/dev/dotfiles
 
 ### Files
 
-Create a symlink to the `.bashrc`, `.bash_profile` and `.inputrc` files in this repo:
+Create a symlink to the `.bashrc`, `.bash_profile` and `.inputrc` files in this repo. Run this from Git Bash (requires [Developer Mode](https://learn.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development) enabled, or a terminal run as administrator):
 
 ```bash
-mklink "C:\Users\${USERNAME}\.bashrc" "C:\${PATH_TO_THIS_REPO}\bash\.bashrc"
-mklink "C:\Users\${USERNAME}\.bash_profile" "C:\${PATH_TO_THIS_REPO}\bash\.bash_profile"
-mklink "C:\Users\${USERNAME}\.inputrc" "C:\${PATH_TO_THIS_REPO}\bash\.inputrc"
+export MSYS=winsymlinks:nativestrict
+ln -sf ~/Documents/dev/dotfiles/bash/.bashrc ~/.bashrc
+ln -sf ~/Documents/dev/dotfiles/bash/.bash_profile ~/.bash_profile
+ln -sf ~/Documents/dev/dotfiles/bash/.inputrc ~/.inputrc
 ```
+
+> `MSYS=winsymlinks:nativestrict` makes `ln -s` create real Windows symlinks instead of silently copying the files.
 
 ### Terminal
 

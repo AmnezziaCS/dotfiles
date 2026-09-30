@@ -30,7 +30,7 @@ Since I sometimes have to work on plain Windows machines without WSL. I heavily 
 
 ### Claude
 
-Claude config taken from [here](https://github.com/Fuzznimp/dotfiles/tree/main/.claude) (thanks Fuzznimp 🙂). Wanted to try it out as it looked very well made. `.md` files should be imported inside `.claude` directory for a setup.
+Claude config inspired from [here](https://github.com/Fuzznimp/dotfiles/tree/main/.claude) (thanks Fuzznimp 🙂). Switched caveman to a skill.
 
 ### Terminals
 
